@@ -1,0 +1,15 @@
+{
+    "name": "urlshortener",
+    "version": "0.1.0",
+    "description": "url shortener",
+    "main": "shorturl.js",
+    "dependencies": {
+        "body-parser": "~1.14.2",
+        "consolidate": "~0.13.1",
+        "express": "~4.13.3",
+        "mongodb": "~2.2.9",
+        "nunjucks": "~2.2.0"
+    },
+    "author": "Jack Brierty",
+    "license": "0BSD"
+}
