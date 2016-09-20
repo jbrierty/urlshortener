@@ -3,8 +3,8 @@ var express = require('express'),
     engines = require('consolidate'),
     bodyParser = require('body-parser'),
     MongoClient = require('mongodb').MongoClient,
-    assert = require('assert'),
-    lsitDAO = require('./list').listDAO;
+    assert = require('assert');
+    //lsitDAO = require('./list').listDAO;
 
 app.engine('html', engines.nunjucks);
 app.set('view engine', 'html');
