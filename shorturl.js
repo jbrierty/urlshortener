@@ -4,7 +4,6 @@ var express = require('express'),
     bodyParser = require('body-parser'),
     MongoClient = require('mongodb').MongoClient,
     assert = require('assert');
-    //lsitDAO = require('./list').listDAO;
 
 app.engine('html', engines.nunjucks);
 app.set('view engine', 'html');
@@ -15,8 +14,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 //MongoClient.connect('mongodb://localhost:27017/exampledb', function(err, db) {
 //MongoClient.connect('mongodb://jbrierty:B39g^A$8pQ@ds035776.mlab.com:35776/urlstuff', function(err, db) {
-MongoClient.connect('mongodb://jbrierty:B39g^A$8pQ@ds035786.mlab.com:35786/heroku_grqjs1qh', function(err, db) {    
-
+MongoClient.connect('mongodb://jbrierty:B39g^A$8pQ@ds035786.mlab.com:35786/heroku_grqjs1qh', function(err, db){
     // assert.equal(null, err);
     console.log("Successfully connected to MongoDB.");
 
